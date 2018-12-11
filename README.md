@@ -1,4 +1,4 @@
-# gulp-demo
+# Gulp Demo - Javascript build
 This project is used for demonstrating what Gulp is and how it works. It perform a couple of simple tasks to give you a quick overview of what it does. First it converts newer js to ES5 for backward browser compitibility and copy the modified files in the stream to **deploy** folder. 
 
 * Create package.json
