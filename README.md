@@ -6,6 +6,8 @@ This project is used for demonstrating what Gulp is and how it works. It perform
 npm init
 ```
 
+* Create **deploy** and **vendor** in the **gulp-demo** root directory
+
 * install gulp package in your devDependencies
 ```console
 npm install --save-dev gulp
