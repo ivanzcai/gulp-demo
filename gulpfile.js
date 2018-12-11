@@ -6,6 +6,6 @@ exports.default = function() {
   return src('src/*.js')
     .pipe(babel())
     .pipe(src('vendor/*.js'))
-     .pipe(uglify())
-     .pipe(dest('deploy/'));
+    .pipe(uglify())
+    .pipe(dest('deploy/'));
 }

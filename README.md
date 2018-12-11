@@ -1,5 +1,5 @@
 # gulp-demo
-This project is used for demonstrating what Gulp is and how it works. It perform 3 simple tasks: Convert a LESS file to a  CSS  file, combine and minify all the javascript files and put them in a deploy directory.
+This project is used for demonstrating what Gulp is and how it works. It perform a couple of simple tasks to give you a quick overview of what it does. First it converts newer js to ES5 for backward browser compitibility and copy the modified files in the stream to **deploy** folder. 
 
 * Create package.json
 ```console
@@ -39,6 +39,6 @@ npm install --save-dev gulp-uglify
 ```console
 gulp 
 ```
-If it works, you will see files generated in the **deploy** folder
+If this works, you will see files generated in the **deploy** folder
 
 
