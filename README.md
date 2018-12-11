@@ -16,9 +16,29 @@ npm install --save-dev gulp
 gulp --version
 ```
 
-* Install gulp cli
+
+* Install gulp cli, babel and uglify
 ```console
 npm install gulp-cli -g
+npm install --save-dev gulp-babel @babel/core @babel/preset-env
 ```
+**babel** is used for converting javascript to ES5 so even the older browsers can render the site.
+
+* To install Uglify package, you will need to add  
+```javascript
+"fsevents": "*"
+```
+to your devDependencies in your **package.json**
+
+Then run: 
+```console
+npm i -f
+npm install --save-dev gulp-uglify
+```
+*Run 
+```console
+gulp 
+```
+If it works, you will see files generated in the **deploy** folder
 
 

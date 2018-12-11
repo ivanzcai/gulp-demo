@@ -17,6 +17,11 @@
   },
   "homepage": "https://github.com/ivanzcai/gulp-demo#readme",
   "devDependencies": {
-    "gulp": "^4.0.0"
+    "@babel/core": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "fsevents": "*",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-uglify": "^3.0.1"
   }
 }
